@@ -5,15 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../img/favicon.ico" />
-    <title>信息收集 - TOOLS</title>
+    <title>远程控制 - TOOLS</title>
     <link rel="stylesheet" href="../css/theme.css" />
     <link rel="stylesheet" href="../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
     
       <script>
         // Current page data
-        var mkdocs_page_name = "\u4fe1\u606f\u6536\u96c6";
-        var mkdocs_page_input_path = "Reconnaissance.md";
+        var mkdocs_page_name = "\u8fdc\u7a0b\u63a7\u5236";
+        var mkdocs_page_input_path = "C2.md";
         var mkdocs_page_url = null;
       </script>
     
@@ -47,14 +47,8 @@
                 <li class="toctree-l1"><a class="reference internal" href="../mitm/">代理抓包</a>
                 </li>
               </ul>
-              <ul class="current">
-                <li class="toctree-l1 current"><a class="reference internal current" href="#">信息收集</a>
-    <ul class="current">
-    <li class="toctree-l2"><a class="reference internal" href="#js">JS信息爬虫</a>
-    </li>
-    <li class="toctree-l2"><a class="reference internal" href="#_2">综合类型</a>
-    </li>
-    </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../Reconnaissance/">信息收集</a>
                 </li>
               </ul>
               <ul>
@@ -81,8 +75,22 @@
                 <li class="toctree-l1"><a class="reference internal" href="../cloud/">云上安全</a>
                 </li>
               </ul>
-              <ul>
-                <li class="toctree-l1"><a class="reference internal" href="../C2/">远程控制</a>
+              <ul class="current">
+                <li class="toctree-l1 current"><a class="reference internal current" href="#">远程控制</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#webshell">Webshell</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#webshell_1">Webshell生成</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#c2">C2</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#c2_1">C2插件</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#_2">远程桌面</a>
+    </li>
+    </ul>
                 </li>
               </ul>
       </div>
@@ -99,7 +107,7 @@
         <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
   <ul class="wy-breadcrumbs">
     <li><a href=".." class="icon icon-home" aria-label="Docs"></a></li>
-      <li class="breadcrumb-item active">信息收集</li>
+      <li class="breadcrumb-item active">远程控制</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -108,8 +116,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
               
-                <h1 id="_1">信息收集</h1>
-<h2 id="js">JS信息爬虫</h2>
+                <h1 id="_1">远程控制</h1>
+<h2 id="webshell">Webshell</h2>
 <table>
 <thead>
 <tr>
@@ -120,23 +128,58 @@
 </thead>
 <tbody>
 <tr>
-<td>JSFinder</td>
-<td>JS信息爬虫</td>
+<td>蚁剑</td>
+<td>Webshell</td>
 <td></td>
 </tr>
 <tr>
-<td>Packer-Fuzzer</td>
-<td>JS信息爬虫</td>
+<td>哥斯拉</td>
+<td>Webshell</td>
 <td></td>
 </tr>
 <tr>
-<td>URLFinder</td>
-<td>JS信息爬虫</td>
+<td>冰蝎</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>alien</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>菜刀</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>天蝎</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>weevely3</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>webshell</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>C刀</td>
+<td>Webshell</td>
+<td></td>
+</tr>
+<tr>
+<td>冰蝎</td>
+<td>Webshell</td>
 <td></td>
 </tr>
 </tbody>
 </table>
-<h2 id="_2">综合类型</h2>
+<h2 id="webshell_1">Webshell生成</h2>
 <table>
 <thead>
 <tr>
@@ -147,43 +190,134 @@
 </thead>
 <tbody>
 <tr>
-<td>Slack</td>
-<td>综合类型</td>
+<td>Webshell_Generate</td>
+<td>Webshell生成</td>
 <td></td>
 </tr>
 <tr>
-<td>TscanPlus</td>
-<td>综合类型</td>
+<td>jMG-gui-1.0.8</td>
+<td>Webshell生成</td>
 <td></td>
 </tr>
 <tr>
-<td>ENScan_GO</td>
-<td>综合类型</td>
+<td>vagent</td>
+<td>Webshell生成</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="c2">C2</h2>
+<table>
+<thead>
+<tr>
+<th>工具名</th>
+<th>分类</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sliver</td>
+<td>C2</td>
 <td></td>
 </tr>
 <tr>
-<td>AppInfoScanner</td>
-<td>综合类型</td>
+<td>vshell</td>
+<td>C2</td>
 <td></td>
 </tr>
 <tr>
-<td>fofa_viewer</td>
-<td>综合类型</td>
+<td>supershell</td>
+<td>C2</td>
 <td></td>
 </tr>
 <tr>
-<td>Search_Viewer</td>
-<td>综合类型</td>
+<td>Cobaltstrike</td>
+<td>C2</td>
 <td></td>
 </tr>
 <tr>
-<td>mitan</td>
-<td>综合类型</td>
+<td>Gh0st2023远控RAT</td>
+<td>C2</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="c2_1">C2插件</h3>
+<table>
+<thead>
+<tr>
+<th>工具名</th>
+<th>分类</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ladon</td>
+<td>C2插件</td>
 <td></td>
 </tr>
 <tr>
-<td>dismap</td>
-<td>综合类型</td>
+<td>taowu</td>
+<td>C2插件</td>
+<td></td>
+</tr>
+<tr>
+<td>Erebus</td>
+<td>C2插件</td>
+<td></td>
+</tr>
+<tr>
+<td>CrossC2</td>
+<td>C2插件</td>
+<td></td>
+</tr>
+<tr>
+<td>OLa</td>
+<td>C2插件</td>
+<td></td>
+</tr>
+<tr>
+<td>Pillager</td>
+<td>C2插件</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2 id="_2">远程桌面</h2>
+<table>
+<thead>
+<tr>
+<th>工具名</th>
+<th>分类</th>
+<th>链接</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>todesk</td>
+<td>远程桌面</td>
+<td></td>
+</tr>
+<tr>
+<td>rustdesk</td>
+<td>远程桌面</td>
+<td></td>
+</tr>
+<tr>
+<td>向日葵</td>
+<td>远程桌面</td>
+<td></td>
+</tr>
+<tr>
+<td>anydesk</td>
+<td>远程桌面</td>
+<td></td>
+</tr>
+<tr>
+<td>teamviewer</td>
+<td>远程桌面</td>
 <td></td>
 </tr>
 </tbody>
@@ -192,8 +326,7 @@
             </div>
           </div><footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
-        <a href="../mitm/" class="btn btn-neutral float-left" title="代理抓包"><span class="icon icon-circle-arrow-left"></span> Previous</a>
-        <a href="../Vulnerability_Exploitation/" class="btn btn-neutral float-right" title="漏洞利用">Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../cloud/" class="btn btn-neutral float-left" title="云上安全"><span class="icon icon-circle-arrow-left"></span> Previous</a>
     </div>
 
   <hr/>
@@ -216,10 +349,8 @@
   <span class="rst-current-version" data-toggle="rst-current-version">
     
     
-      <span><a href="../mitm/" style="color: #fcfcfc">&laquo; Previous</a></span>
+      <span><a href="../cloud/" style="color: #fcfcfc">&laquo; Previous</a></span>
     
-    
-      <span><a href="../Vulnerability_Exploitation/" style="color: #fcfcfc">Next &raquo;</a></span>
     
   </span>
 </div>
